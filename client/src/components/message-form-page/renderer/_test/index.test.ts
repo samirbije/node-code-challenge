@@ -1,13 +1,13 @@
 import {assert} from 'chai';
 
-import {MessageFormComponent}  from './MessageFormComponent';
+import {Renderer}  from '../../../message-form-page/renderer/index';
 
 describe('testing events of message form page',()=>{
     const state ={
         username:'test',
         text:'test123'
     }
-    let messageFormInstance =new MessageFormComponent({});
+    let messageFormInstance =new Renderer({});
     messageFormInstance.state={...state}
   
     it('should call validateEmptyValue',()=>{

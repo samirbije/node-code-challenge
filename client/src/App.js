@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { MessageFormComponent} from './components/MessageFormComponent';
+import { MessageFormPage} from './components/message-form-page';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       </header>
 
       <main>
-  <MessageFormComponent />
+  <MessageFormPage />
       </main>
 
       <footer>

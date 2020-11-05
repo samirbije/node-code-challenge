@@ -2,7 +2,7 @@
 import React from 'react';
 
 
-export class MessageFormComponent extends React.PureComponent<{}, State> {
+export class Renderer extends React.PureComponent<{}, State> {
   constructor(props: any) {
     super(props);
 
